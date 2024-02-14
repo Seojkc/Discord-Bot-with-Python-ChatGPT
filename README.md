@@ -1,16 +1,22 @@
 # Discord-Bot-with-Python-ChatGPT
 It’s a mainly python programed discord bot able to answer any random questions using ChatGPT API
+
 Libraries used : Discord, OpenAI, Spacy, Regex
 
 The code implements a Discord chatbot using the discord.py library and integrates OpenAI's ChatCompletion model to generate responses based on the conversation's topic.
+
 **Key Features:**
 **Conversation History Storage:**
+
 The code uses a list (storage) to store the conversation history, allowing the bot to maintain context across messages.
 **Topic-based Responses:**
+
 The bot determines the topic of the conversation using OpenAI's ChatCompletion model and responds accordingly. Topics include "Python," "greeting," "Basketball," and a general fallback ("other").
 **Dynamic Greetings:**
+
 The bot dynamically greets users based on the detected topic, providing a personalized and context-aware interaction.
 **Code Modularity:**
+
 The code is well-organized into functions and classes, promoting modularity and readability.
 
 API Calls
