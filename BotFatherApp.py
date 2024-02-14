@@ -1,12 +1,12 @@
 """ 
- @ author: Seo James, Shavinda Abeyratne, Priya Patel, This is the assignment to create the GPT chatbot, 01/12/2023, 
+ @ author: Seo James. This is the assignment to create the GPT chatbot, 01/12/2023, 
 """
 import discord
 import openai
 #list to store conversation history
 storage=[]
 #OpenAI api key
-api_key = "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"
+api_key = "sk-6S9GM8HOfHf26aX4Bwt3T3BlbkFJ9MaaVvyqJ9Keprivate"
 openai.api_key = api_key
 
 #class to represent the bot client
